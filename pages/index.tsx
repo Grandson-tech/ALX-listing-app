@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Card from '../components/common/Card';
 import Button from '../components/common/Button';
+import Logo from '../components/common/Logo';
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen bg-gray-100 p-6">
+        <div className="flex justify-center mb-8">
+          <Logo size="lg" />
+        </div>
         <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
           Welcome to ALX Listing App
         </h1>
